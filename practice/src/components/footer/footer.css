@@ -1,4 +1,19 @@
 .footerContent {
     background-color: grey;
-    
+    color: white;
+}
+
+.footerLogo {
+    max-width: 100px;
+    max-height: 100px;
+
+}
+
+a {
+    all: unset;
+}
+
+.footerLink:hover {
+    color: gold;
+    font-weight: bold;
 }
