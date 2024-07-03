@@ -1,0 +1,11 @@
+.butt {
+    background-color: gold;
+    float: right;
+    margin-top: 5px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    display: block;
+}

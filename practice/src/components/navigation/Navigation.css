@@ -1,0 +1,13 @@
+.navigationClick {
+    cursor: pointer;
+}
+
+.navigationImage {
+    width: 400px;
+    height: 300px;
+}
+
+.navigationTitle {
+    color: red;
+    font-weight: 400;
+}
