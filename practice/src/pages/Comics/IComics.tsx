@@ -2,8 +2,9 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/footer';
-import { charactersLinks } from '../../components/info/info';
-import { comics } from '../../components/info/info'
+import { charactersLinks } from '../../components/info/Characters';
+import { comics } from '../../components/info/Comics'
+import './IComics.css'
 
 type fields = {
     title: string, 
@@ -31,9 +32,9 @@ const IComics = function () {
                 <h2 className='icomicsTitle'>{thiscomics?.title}</h2>
                 <p className='icomicsDescription'>{thiscomics?.description}</p>
                 <div>
-                <h3>Characters</h3>
+                <h3>Персонажи</h3>
                 {charactersLinks.map((characters) => (
-                    <a href={characters.link}>{characters.title}</a>
+                    <a className='icomicsCharacters' href={characters.link}>{characters.title} <br/></a>
                 ))}
                 </div>
             </div>

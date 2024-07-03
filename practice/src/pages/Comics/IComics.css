@@ -1,44 +1,14 @@
-import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import Header from '../../components/header/Header';
-import Footer from '../../components/footer/footer';
-import { comicsLinks, characters} from '../../components/info/info';
-
-type fields = {
-    title: string, 
-    Image: string,
-    description: string,    
-};
-
-const ICharacters = function () {
-    const { id } = useParams();
-    const [character, newcharacter] = useState<fields|undefined>(undefined);
-    useEffect(() => {
-        const choose = async () => {
-            if (id) {
-                newcharacter(characters[Number(id)]);
-            }
-        };
-        choose();
-    }, [id]);
-
-    return (
-        <div className='icharacter'>
-            <Header/>
-            <div className='icharacterContent'>
-                <img className='icharacterImage' src={character?.Image}/>
-                <h2 className='icharacterTitle'>{character?.title}</h2>
-                <p className='icharacterDescription'>{character?.description}</p>
-                <div>
-                <h3 >Comics</h3>
-                {comicsLinks.map((comics) => (
-                    <a href={comics.link}>{comics.title}</a>
-                ))}
-                </div>
-            </div>
-            <Footer/>
-        </div>
-    )
+.icomicsImage {
+    max-height: 650px;
 }
 
-export default ICharacters;
+.icomicsCharacters:hover {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+}
+
+.icomicsContent {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}

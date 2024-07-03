@@ -1,0 +1,8 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+    height: 100%;
+}

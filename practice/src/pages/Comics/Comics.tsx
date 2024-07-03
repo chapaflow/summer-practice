@@ -3,7 +3,7 @@ import Footer from "../../components/footer/footer";
 import Navigation from "../../components/navigation/Navigation";
 import Button from "../../components/button/Button";
 import Input from "../../components/input/Input";
-import { comics } from "../../components/info/info";
+import { comics } from "../../components/info/Comics";
 import './Comics.css'
 
 const Comics = function() {
@@ -11,7 +11,7 @@ const Comics = function() {
         <div className="comics">
             <Header/>
             <h1 className="comicsTitle">
-                Comics <span className="comicsCounter">{comics.length}</span>
+                Comics <span className="comicsCounter">({comics.length})</span>
             </h1>
             <div className="comicsSearch">
                 <Input txt = "Search for Comics by Name"/>

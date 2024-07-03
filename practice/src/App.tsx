@@ -4,6 +4,7 @@ import Characters from "./pages/Characters/Characters";
 import ICharacters from "./pages/Characters/ICharacters";
 import Comics from "./pages/Comics/Comics";
 import IComics from "./pages/Comics/IComics";
+import './App.css'
 
 const newRouter = createBrowserRouter([
   {

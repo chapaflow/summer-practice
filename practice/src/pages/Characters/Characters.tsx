@@ -3,15 +3,15 @@ import Footer from "../../components/footer/footer";
 import Navigation from "../../components/navigation/Navigation";
 import Button from "../../components/button/Button";
 import Input from "../../components/input/Input";
-import { characters } from "../../components/info/info";
+import { characters } from "../../components/info/Characters";
 import './Characters.css'
 
 const Characters = function() {
     return (
         <div className="characters">
             <Header/>
-            <h1 className="charctaersTitle">
-                Characters <span className="charactersCounter">{characters.length}</span>
+            <h1 className="charactersTitle">
+                Characters <span className="charactersCounter">({characters.length})</span>
             </h1>
             <div className="charactersSearch">
                 <Input txt = "Search for Characters by Name"/>

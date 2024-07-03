@@ -1,0 +1,16 @@
+.icharacterImage {
+    max-height: 575px;
+    width: 1000px;
+}
+
+.icharacterContent {
+    height: calc(100vh - 183.5px);
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.icharactersComics:hover {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+}

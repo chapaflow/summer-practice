@@ -22,9 +22,11 @@ const Navigation: React.FC<NavigationProps> = ({ id, Image, title, description, 
 
     return (
         <div onClick={click} className='navigationClick'>
-            <img src={Image} className='navigationImage'/>
-            <p className='navigationTitle'>{title}</p>
-            <p className='navigationDescription'>{description}</p>
+            <div className='navigationCharacter'>
+                <img src={Image} className='navigationImage'/>
+                <p className='navigationTitle'>{title}</p>
+                <p className='navigationDescription'>{description}</p>
+            </div>    
         </div>
     )
 }
