@@ -1,6 +1,7 @@
 import Avengers from '../../assets/avengers.png'
 import Winners from '../../assets/winners.png'
 import New from '../../assets/new.png'
+import Team from '../../assets/team.png'
 
 export const comics = [
     {
@@ -21,6 +22,12 @@ export const comics = [
         title: 'Новые Мстители. Том 4',
         description: 'Секретное вторжение сотрясает мир Новых Мстителей!',
     },
+    {
+        id: '3',
+        Image: Team, 
+        title: 'Команда мстителей: Ядовитая сыворотка',
+        description: 'Удивительный мир, полный приключений. Захватывающая история о супергероях.'
+    },
 ];
 
 export const comicsLinks = [
@@ -35,5 +42,9 @@ export const comicsLinks = [
     {
         title: 'Новые Мстители. Том 4',
         link: 'https://www.ozon.ru/product/novye-mstiteli-polnoe-sobranie-tom-4-bendis-brayan-maykl-1288791547/?asb=dXWq5lHZr7GfrX5HW40%252FAIeKy1vbIct9RUmDWccPuZE%253D&asb2=LhfjO44pZA3SWHyOB7h5zvBWaXPBruog0u21Ues3CWtAsbW6Sy363ISiNt8KWjTxGzZ5RJDVPaZPJf8OMouocg&avtc=1&avte=2&avts=1719909855&from_sku=1288791547&from_url=https%253A%252F%252Fwww.ozon.ru%252Fcategory%252Fkomiksy-pro-mstiteley%252F&keywords=Комиксы+про+Мстителей&oos_search=false',
+    },
+    {
+        title:'Команда мстителей: Ядовитая сыворотка',
+        link: 'https://www.ozon.ru/product/komanda-mstiteley-yadovitaya-syvorotka-komiksy-200h280-mm-skrepka-16-str-1578691826/?asb=3kYI9l%252FyhRx50AXXXtOO3VyfKlC0ZCJTsGsoVWll8jQ%253D&asb2=ZtK30HBs6gZjY02jGIIEuRelMkSB3ndVCfjDbG3eeaaX1AqTe1O1LnI3gnodNsNn-5IedR7PfpS12z_5QoYH_g&avtc=1&avte=2&avts=1720034126&keywords=Комиксы+про+Мстителей#section-description--offset-140--offset-80'
     },
 ];

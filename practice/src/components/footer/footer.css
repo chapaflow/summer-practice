@@ -28,5 +28,6 @@ a {
 }
 
 .footer {
-    height: 100px;
+    margin-top: calc(100vh - 925px);
+    bottom:0;
 }
