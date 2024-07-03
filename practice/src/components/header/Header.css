@@ -1,5 +1,4 @@
 .headerContent {
-    background-color: red;
     display: flex;
     padding: 20 0px;
     width: 100%;
@@ -29,4 +28,9 @@
 
 .headerLink:hover {
     text-decoration: underline;
+}
+
+.Header {
+    height: 60px;
+    background-color: red;
 }
